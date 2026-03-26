@@ -9,4 +9,3 @@ Proyecto en Java que implementa estructuras de listas enlazadas.
 ## Ejecución
 Ejecutar la clase Main.
 
-

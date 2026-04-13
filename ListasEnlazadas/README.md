@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ListasEnlazadas
 
 Proyecto de apoyo para **Programacion 3** con implementaciones propias de:
@@ -81,16 +80,3 @@ para que los estudiantes los implementen directamente en cada estructura.
 - Validaciones de entrada y manejo de estados vacios.
 - Metodos de apoyo para visualizacion y depuracion.
 - Implementacion de estructuras **100% manual**, sin uso de `java.util.*`.
-=======
-# Listas Enlazadas - Retos
-Proyecto en Java que implementa estructuras de listas enlazadas.
-## Retos
-- countOccurrences
-- clean
-- reverseInPlace
-- removeDuplicates
-
-## Ejecución
-Ejecutar la clase Main.
-
->>>>>>> eaa483b7057ae53d0db1e59f8ecb10b325980b8a

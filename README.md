@@ -35,9 +35,9 @@ src/main/java/umg/edu/gt/listasenlazadas/
 ## Ejecucion
 
 Compilar:
-
+```bash
 mvn clean compile
-
+```
 
 Ejecutar demo principal:
 

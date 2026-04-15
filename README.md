@@ -5,7 +5,6 @@
 Proyecto de apoyo para **Programacion 3** con implementaciones propias de:
 
 - Lista simplemente enlazada
-<<<<<<< HEAD
 - Lista circular
 
 - Lista doblemente enlazada

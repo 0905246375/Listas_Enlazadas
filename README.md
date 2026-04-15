@@ -1,10 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dc8488b645341799d548572cf87216d5d3cae9be
 # ListasEnlazadas
 
 Proyecto de apoyo para **Programacion 3** con implementaciones propias de:
 
 - Lista simplemente enlazada
+<<<<<<< HEAD
 - Lista circular
+=======
+>>>>>>> dc8488b645341799d548572cf87216d5d3cae9be
 - Lista doblemente enlazada
 
 Incluye ejemplos academicos y aplicaciones de casos reales para entender cuando usar cada estructura.
@@ -23,20 +29,29 @@ src/main/java/umg/edu/gt/listasenlazadas/
     SimpleNode.java
     SinglyLinkedList.java
     SimpleListExample.java
+<<<<<<< HEAD
   circular/
     CircularNode.java
     CircularLinkedList.java
     CircularListExample.java
+=======
+>>>>>>> dc8488b645341799d548572cf87216d5d3cae9be
   doubly/
     DoublyNode.java
     DoublyLinkedList.java
     DoublyListExample.java
   applications/
     TaskBacklogApp.java
+<<<<<<< HEAD
     RoundRobinPlaylistApp.java
     UndoRedoEditorApp.java
   retos/
     LinkedListChallenges.java
+=======
+  retos/
+    LinkedListChallenges.java
+    DoublyLinkedListChallenges.java
+>>>>>>> dc8488b645341799d548572cf87216d5d3cae9be
 ```
 
 ## Ejecucion
@@ -58,6 +73,7 @@ mvn exec:java -Dexec.mainClass="umg.edu.gt.listasenlazadas.Main"
 ## Casos reales incluidos
 
 1. **TaskBacklogApp**: cola de tareas con lista simple (flujo FIFO basico).
+<<<<<<< HEAD
 2. **RoundRobinPlaylistApp**: reproduccion ciclica con lista circular.
 3. **UndoRedoEditorApp**: historial de acciones con lista doblemente enlazada.
 
@@ -72,6 +88,51 @@ el codigo base necesita ser extendido con nuevos metodos:
 
 Estos metodos estan declarados con `TODO` y `UnsupportedOperationException`,
 para que los estudiantes los implementen directamente en cada estructura.
+=======
+
+## Retos para estudiantes (modificando estructura base)
+
+El proyecto incluye dos laboratorios:
+
+1. `retos/LinkedListChallenges.java` para **lista simple**.
+2. `retos/DoublyLinkedListChallenges.java` para **lista doble**.
+
+Estado actual de retos:
+
+- `SinglyLinkedList`: retos ya resueltos y usados como referencia.
+- `DoublyLinkedList`: retos pendientes para esta entrega.
+
+Retos activos de la entrega en `DoublyLinkedList`:
+
+- `countOccurrences(T value)`
+- `clean()`
+- `reverseInPlace()`
+- `removeDuplicates()`
+
+Estos metodos estan declarados con `TODO` y `UnsupportedOperationException` para
+que los estudiantes los implementen directamente en la estructura.
+
+## Entrega siguiente: Resolver retos en Java
+
+Objetivo: implementar completamente los 4 retos de `DoublyLinkedList` y validar que
+`retos/DoublyLinkedListChallenges.java` muestre resultados `OK` (sin `PENDIENTE`).
+
+### Requisitos tecnicos
+
+- No usar `java.util.*` ni estructuras auxiliares externas.
+- Mantener consistencia de `head`, `tail` y `size` despues de cada operacion.
+- Respetar las firmas de metodos ya definidas.
+- Implementar con recorridos manuales de nodos.
+
+### Criterios de aceptacion
+
+- `countOccurrences(T value)` retorna el conteo correcto en lista vacia y no vacia.
+- `clean()` desconecta nodos, vacia la lista y retorna cantidad eliminada.
+- `reverseInPlace()` invierte enlaces `next`/`previous` sin crear nueva lista.
+- `removeDuplicates()` elimina repetidos conservando la primera ocurrencia.
+- `mvn clean compile` compila sin errores.
+- Al ejecutar `Main`, los 4 retos de lista doble salen con estado `OK`.
+>>>>>>> dc8488b645341799d548572cf87216d5d3cae9be
 
 ## Buenas practicas aplicadas
 
@@ -81,6 +142,7 @@ para que los estudiantes los implementen directamente en cada estructura.
 - Validaciones de entrada y manejo de estados vacios.
 - Metodos de apoyo para visualizacion y depuracion.
 - Implementacion de estructuras **100% manual**, sin uso de `java.util.*`.
+<<<<<<< HEAD
 =======
 # Listas Enlazadas - Retos
 Proyecto en Java que implementa estructuras de listas enlazadas.
@@ -94,3 +156,5 @@ Proyecto en Java que implementa estructuras de listas enlazadas.
 Ejecutar la clase Main.
 
 >>>>>>> eaa483b7057ae53d0db1e59f8ecb10b325980b8a
+=======
+>>>>>>> dc8488b645341799d548572cf87216d5d3cae9be

@@ -1,10 +1,10 @@
 package umg.edu.gt.listasenlazadas;
-
 import umg.edu.gt.listasenlazadas.applications.TaskBacklogApp;
 import umg.edu.gt.listasenlazadas.retos.LinkedListChallenges;
+import umg.edu.gt.listasenlazadas.retos.DoublyLinkedListChallenges;
 import umg.edu.gt.listasenlazadas.simple.SimpleListExample;
 import umg.edu.gt.listasenlazadas.simple.SinglyLinkedList;
-
+import umg.edu.gt.listasenlazadas.doubly.DoublyListExample;
 
 /**
  * Punto de entrada del proyecto.
@@ -16,42 +16,35 @@ public class Main {
         System.out.println("=== DEMOS ESTRUCTURAS ENLAZADAS ===");
         System.out.println();
 
-        SimpleListExample.run();
-
-        System.out.println();
-        System.out.println("=== APLICACIONES REALES ===");
-        TaskBacklogApp.run();
-       
-       
+        // Ejecutar retos de lista simple
         LinkedListChallenges.run();
-        
+
+        // Ejecutar retos de lista doble (IMPORTANTE para tu tarea)
+        DoublyLinkedListChallenges.run();
+
         System.out.println("\n=== RESULTADOS AGREGADOS ===");
-        
+
         SinglyLinkedList<Integer> list = new SinglyLinkedList<>();
-        
+
         list.addLast(1);
         list.addLast(2);
         list.addLast(3);
         list.addLast(2);
-        
+
         System.out.println("Lista original: " + list);
-     
+
         System.out.println("Eliminados: " + list.clean());
         System.out.println("Lista después de clean: " + list);
 
-     
         list.addLast(1);
         list.addLast(2);
         list.addLast(3);
 
         System.out.println("Lista nueva: " + list);
 
-        
         list.reverseInPlace();
         System.out.println("Lista invertida: " + list);
-        
-        
-     
+
         SinglyLinkedList<String> list2 = new SinglyLinkedList<>();
 
         list2.addLast("A");

@@ -5,8 +5,6 @@
 Proyecto de apoyo para **Programacion 3** con implementaciones propias de:
 
 - Lista simplemente enlazada
-- Lista circular
-
 - Lista doblemente enlazada
 
 Incluye ejemplos academicos y aplicaciones de casos reales para entender cuando usar cada estructura.
@@ -18,30 +16,18 @@ Incluye ejemplos academicos y aplicaciones de casos reales para entender cuando 
 
 ## Estructura del proyecto
 
-```text
 src/main/java/umg/edu/gt/listasenlazadas/
   Main.java
   simple/
     SimpleNode.java
     SinglyLinkedList.java
     SimpleListExample.java
-
-  circular/
-    CircularNode.java
-    CircularLinkedList.java
-    CircularListExample.java
-
   doubly/
     DoublyNode.java
     DoublyLinkedList.java
     DoublyListExample.java
   applications/
     TaskBacklogApp.java
-
-    RoundRobinPlaylistApp.java
-    UndoRedoEditorApp.java
-  retos/
-    LinkedListChallenges.java
   retos/
     LinkedListChallenges.java
     DoublyLinkedListChallenges.java
@@ -50,9 +36,8 @@ src/main/java/umg/edu/gt/listasenlazadas/
 
 Compilar:
 
-```bash
 mvn clean compile
-```
+
 
 Ejecutar demo principal:
 

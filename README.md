@@ -15,7 +15,7 @@ Incluye ejemplos academicos y aplicaciones de casos reales para entender cuando 
 - Maven
 
 ## Estructura del proyecto
-
+```bash
 src/main/java/umg/edu/gt/listasenlazadas/
   Main.java
   simple/
@@ -31,7 +31,7 @@ src/main/java/umg/edu/gt/listasenlazadas/
   retos/
     LinkedListChallenges.java
     DoublyLinkedListChallenges.java
-
+```
 ## Ejecucion
 
 Compilar:
@@ -50,20 +50,6 @@ mvn exec:java -Dexec.mainClass="umg.edu.gt.listasenlazadas.Main"
 ## Casos reales incluidos
 
 1. **TaskBacklogApp**: cola de tareas con lista simple (flujo FIFO basico).
-2. **RoundRobinPlaylistApp**: reproduccion ciclica con lista circular.
-3. **UndoRedoEditorApp**: historial de acciones con lista doblemente enlazada.
-
-## Retos para estudiantes (modificando estructura base)
-
-El proyecto incluye `retos/LinkedListChallenges.java`, que ejecuta escenarios donde
-el codigo base necesita ser extendido con nuevos metodos:
-
-1. `SinglyLinkedList.countOccurrences(T value)`
-2. `CircularLinkedList.jumpsToValue(T value)`
-3. `DoublyLinkedList.indexFromTail(T value)`
-
-Estos metodos estan declarados con `TODO` y `UnsupportedOperationException`,
-para que los estudiantes los implementen directamente en cada estructura.
 
 ## Retos para estudiantes (modificando estructura base)
 
@@ -118,14 +104,4 @@ Objetivo: implementar completamente los 4 retos de `DoublyLinkedList` y validar 
 - Metodos de apoyo para visualizacion y depuracion.
 - Implementacion de estructuras **100% manual**, sin uso de `java.util.*`.
 
-# Listas Enlazadas - Retos
-Proyecto en Java que implementa estructuras de listas enlazadas.
-## Retos
-- countOccurrences
-- clean
-- reverseInPlace
-- removeDuplicates
-
-## Ejecución
-Ejecutar la clase Main.
 
